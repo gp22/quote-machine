@@ -1,7 +1,7 @@
 import '../css/main.scss';
 
 (function quoteMachine() {
-  const URL = 'http://quotes.stormconsultancy.co.uk/random.json';
+  const URL = 'https://quotes.stormconsultancy.co.uk/random.json';
   const allQuotes = [];
   let currentQuoteIndex = -1;
 
