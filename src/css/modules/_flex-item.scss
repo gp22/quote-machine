@@ -1,0 +1,19 @@
+.flex-item__image {
+  background-image: -webkit-linear-gradient(left bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("https://memoori.com/wp-content/uploads/2016/05/Source-Code.jpg");
+  background-position: center;
+  background-size: auto 100%;
+  width: 130px;
+}
+
+.flex-item__quote {
+  padding-left: 1.6rem;
+  flex: 1;
+}
+
+.flex-item__social {
+  width: 80px;
+}
+
+.flex-item--center-self {
+  align-self: center;
+}

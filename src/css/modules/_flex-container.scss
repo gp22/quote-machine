@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-container--margin-bottom {
+  margin-bottom: 2.4rem;
+}
+
+.flex-container--column {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-container--center-items {
+  justify-content: center;
+}

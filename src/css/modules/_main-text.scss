@@ -1,0 +1,26 @@
+.main-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  transition: transform .4s cubic-bezier(0.74,-0.21, 0.35, 1.21);
+  line-height: .9;
+}
+
+.main-text--large {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+.main-text--quote-marks {
+  font-size: 9rem;
+  opacity: .4;
+  transform: rotate(180deg) translateX(1rem) translateY(-4rem);
+}
+
+.main-text--float-above {
+  transform: translateY(-280%);
+}
+
+.main-text--float-below {
+  transform: translateY(280%);
+}
